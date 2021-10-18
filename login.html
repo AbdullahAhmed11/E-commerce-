@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font cdn -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- font awesome cdn  -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- custom css file  -->
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Shopping App | Login</title>
+</head>
+<body>
+    <!-- start header  -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="./index.html" class="logo">Shopping.</a>
+                <nav>
+                    <ul id="links">
+                        <li><a href="login.html">Sign in</a></li>
+                        <li><a href="registar.html">Sign up</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="section-form">
+        <h2>Registar User</h2>
+        <form>
+            <input type="text" placeholder="Enter your username..." id="username"/>
+            <input type="password" placeholder="Enter paswword..." id="password"/>
+            <input type="submit" value="Login In" id="btn"/>
+            <span>i dont have account <a href="./registar.html">Sign up</a></span>
+        </form>
+    </section>
+
+    <script src="./js/login.js"></script>
+</body>
+</html>
